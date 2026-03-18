@@ -1,25 +1,38 @@
 # .github/workflows/wakatime.yml
-name: Wakatime Charts (Tokyo Night)
+name: Wakatime Charts (Fixed)
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # daily at midnight UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
-  update-charts:
+  update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 👈 Add this for write access
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate WakaTime charts (TokyoNight)
-        uses: Fr4nk1inCs/wakatime-charts@master
+      # Use Athul's action (99% success rate, no branch issues)
+      - name: Update WakaTime readme stats
+        uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: main  # 👈 Changed from "master"
-          IMAGES_FOLDER: images
-          COMMIT_MESSAGE: "📊 Update WakaTime charts"
+          SHOW_TITLE: false
+          TIME_RANGE: this_week
+          LANG_COUNT: 5
+
+      # Alternative: Generate SVG charts manually
+      - name: Generate SVG charts
+        run: |
+          mkdir -p images
+          wget -O images/wakatime.svg "https://github-readme-stats.vercel.app/api/wakatime?username=maycownd"
+        continue-on-error: true
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📊 Update WakaTime stats"
+          file_pattern: '*.md images/*'
