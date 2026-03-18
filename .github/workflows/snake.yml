@@ -1,28 +1,29 @@
-name: Generate Snake
+# .github/workflows/snake.yml
+name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # every day at 00:00 UTC
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # daily at midnight UTC
+  workflow_dispatch:  # manual trigger
 
 jobs:
-  build:
-    name: Build Snake
+  generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 👈 This fixes the 403!
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # required for snake
 
-      - name: Generate Snake SVGs
+      - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-light
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - name: Push Snake SVGs to output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
