@@ -4,7 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-maycownd-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/maycownd/)
 [![Twitter](https://img.shields.io/badge/Twitter-@maycown-1DA1F2?style=flat&logo=twitter)](https://twitter.com/maycown)
-![Profile views](https://visitor-badge.glitch.me/badge?page_id=maycownd.profile)
+![Profile views](https://paulcbauer.github.io/visitor-badge/badge.svg?id=maycownd.profile)
 
 ---
 
@@ -64,27 +64,11 @@
 
 <div align="center">
 
-<img 
-  src="https://github-readme-stats-soulteary.vercel.app/api?username=maycownd&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" 
-  alt="GitHub Stats" 
-  height="165"
-/>
+<img src="https://github-readme-stats.vercel.app/api?username=maycownd&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maycownd&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
 
-<img 
-  src="https://github-readme-stats-soulteary.vercel.app/api/top-langs/?username=maycownd&layout=compact&theme=tokyonight&langs_count=8" 
-  alt="Top Languages" 
-  height="165"
-/>
-
-<img 
-  src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maycownd&theme=tokyonight" 
-  alt="Profile Details"
-/>
-
-<img 
-  src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=maycownd&theme=tokyonight&utcOffset=1" 
-  alt="Productive Time"
-/>
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maycownd&theme=tokyonight" alt="Profile Details" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=maycownd&theme=tokyonight&utcOffset=1" alt="Productive Time" />
 
 </div>
 
