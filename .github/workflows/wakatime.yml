@@ -1,0 +1,23 @@
+# .github/workflows/wakatime.yml
+name: Wakatime Charts
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # every day at 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-charts:
+    name: Update WakaTime stats charts
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate WakaTime charts (TokyoNight)
+        uses: Fr4nk1inCs/wakatime-charts@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: master
+          IMAGES_FOLDER: images
