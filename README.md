@@ -134,8 +134,3 @@
 💬 **Reach out**: ping me on LinkedIn/Twitter or open an issue if you want to chat about ML, TypeScript, or cool side projects.
 
 ---
-
-### ⚙️ GitHub Actions setup (for automation)
-
-<details>
-<summary><strong>Snake animation (Platane/snk)</strong></summary>
