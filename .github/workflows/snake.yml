@@ -10,12 +10,15 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 👈 This fixes the 403!
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # required for snake
+          fetch-depth: 0
+
+      - name: Create dist directory
+        run: mkdir -p dist
 
       - name: Generate snake
         uses: Platane/snk@v3
