@@ -1,17 +1,27 @@
-# Hey, I'm Maycown 👋  
+# Hey, I'm Maycown 👋
 
-> **Machine Learning Engineer @ H&M · Stockholm, Sweden 🇸🇪**  
+> **Machine Learning Engineer @ H&M · Stockholm, Sweden 🇸🇪**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-maycownd-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/maycownd/)
 [![Twitter](https://img.shields.io/badge/Twitter-@maycown-1DA1F2?style=flat&logo=twitter)](https://twitter.com/maycown)
-![Profile views](https://paulcbauer.github.io/visitor-badge/badge.svg?id=maycownd.profile)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Data%20%26%20ML-111827?style=flat&logo=google-chrome&logoColor=white)](https://github.com/maycownd)
+![Profile views](https://komarev.com/ghpvc/?username=maycownd&style=flat&color=0e75b6)
+
+---
+
+### 🛰️ What I'm focused on now
+
+- Building **reliable ML systems** that can survive real-world scale and operational complexity
+- Turning messy retail data into **decision-ready analytics products**
+- Designing **cloud-native MLOps workflows** with observability by default
+- Exploring **AI + product strategy** for high-impact internal tools
 
 ---
 
 ### ⚡ What I do at work
 
 **Cloud & Data Engineering**
-- Led **Azure → GCP migration** for major digital products 
+- Led **Azure → GCP migration** for major digital products
 - Built **DBT + BigQuery** analytics platform from scratch
 - Configured **CI/CD pipelines** for dozens of ML/data workflows
 - Implemented **SonarQube** across multiple production projects
@@ -50,13 +60,14 @@
 ![Databricks](https://img.shields.io/badge/Databricks-F96B28?style=flat&logo=databricks&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-**Web & Tools**
+---
 
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+### 🧭 Engineering principles
+
+- **Clarity over cleverness** — readable pipelines scale better than opaque magic
+- **Data contracts first** — schema stability is a product feature
+- **Observability is non-negotiable** — if we can't measure it, we can't trust it
+- **Automate the boring parts** — energy should go to product outcomes
 
 ---
 
@@ -64,11 +75,11 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=maycownd&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maycownd&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=maycownd&theme=tokyonight" alt="GitHub summary stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=maycownd&theme=tokyonight" alt="Repos per language" />
 
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maycownd&theme=tokyonight" alt="Profile Details" />
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=maycownd&theme=tokyonight&utcOffset=1" alt="Productive Time" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maycownd&theme=tokyonight" alt="Profile details" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=maycownd&theme=tokyonight&utcOffset=1" alt="Productive time" />
 
 </div>
 
@@ -76,20 +87,10 @@
 
 ### ⏱️ Coding activity (WakaTime)
 
-> Dark, auto-updating charts of my recent coding activity.
+> Dark, auto-updating chart of recent coding activity.
 
 <p align="center">
-  <img 
-    src="https://raw.githubusercontent.com/maycownd/maycownd/master/images/wakatime_weekly_language_stats.svg" 
-    alt="WakaTime weekly language stats" 
-  />
-</p>
-
-<p align="center">
-  <img 
-    src="https://raw.githubusercontent.com/maycownd/maycownd/master/images/wakatime_weekly_project_stats.svg" 
-    alt="WakaTime weekly project stats" 
-  />
+  <img src="./images/wakatime.svg" alt="WakaTime weekly stats" />
 </p>
 
 ---
@@ -109,27 +110,27 @@
 ### 🚀 Selected projects
 
 - 🧮 **ML & Deep Learning**
-  - `ann-python` – Artificial neural networks from scratch and with Keras  
-  - `TCC-Segmentacao-Imagens` – Image segmentation for medical/bone images  
-  - `Data-Science-PyTorch-MNIST` & `deep-learning-fashion-mnist` – Vision models on classic datasets  
+  - `ann-python` – Artificial neural networks from scratch and with Keras
+  - `TCC-Segmentacao-Imagens` – Image segmentation for medical/bone images
+  - `Data-Science-PyTorch-MNIST` & `deep-learning-fashion-mnist` – Vision models on classic datasets
 
 - 📈 **Product & Analytics**
-  - `nutrition-analysis` – Simple nutrition analysis for learning  
-  - `notas-matematica-enem` – Predicting ENEM 2016 maths scores  
-  - `brasa-hacks` – Hackathon data science content  
+  - `nutrition-analysis` – Simple nutrition analysis for learning
+  - `notas-matematica-enem` – Predicting ENEM 2016 maths scores
+  - `brasa-hacks` – Hackathon data science content
 
 - 🧪 **Newer work (private)**
-  - `stock-pulse-ai` – Stock tracking, prediction & recommendations  
-  - `gym-stock-manager` – Stock and inventory management for gyms  
-  - `mike-and-jane` – TypeScript playground / experiments  
+  - `stock-pulse-ai` – Stock tracking, prediction & recommendations
+  - `gym-stock-manager` – Stock and inventory management for gyms
+  - `mike-and-jane` – TypeScript playground / experiments
 
 ---
 
 ### 🎮 Outside of code
 
-- JRPG & action RPG enjoyer (**FFVII** will always have S-tier status)  
-- Concerts, arts and music whenever I can get good tickets  
-- Always down to talk ML systems, productionizing models, or game design  
+- JRPG & action RPG enjoyer (**FFVII** will always have S-tier status)
+- Concerts, arts and music whenever I can get good tickets
+- Always down to talk ML systems, productionizing models, or game design
 
 💬 **Reach out**: ping me on LinkedIn/Twitter or open an issue if you want to chat about ML, TypeScript, or cool side projects.
 
