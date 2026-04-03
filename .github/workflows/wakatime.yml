@@ -1,38 +1,44 @@
-# .github/workflows/wakatime.yml
-name: Wakatime Charts (Fixed)
+---
+name: WakaTime Charts
 
-on:
+"on":
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wakatime-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      # Use Athul's action (99% success rate, no branch issues)
-      - name: Update WakaTime readme stats
+      - name: Update WakaTime README stats
         uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: false
           TIME_RANGE: this_week
-          LANG_COUNT: 5
+          LANG_COUNT: 7
 
-      # Alternative: Generate SVG charts manually
-      - name: Generate SVG charts
+      - name: Generate fallback SVG chart
         run: |
           mkdir -p images
-          wget -O images/wakatime.svg "https://github-readme-stats.vercel.app/api/wakatime?username=maycownd"
+          STATS_URL="https://github-readme-stats.vercel.app/api/wakatime?username=maycownd"
+          wget -q -O images/wakatime.svg "$STATS_URL"
         continue-on-error: true
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "📊 Update WakaTime stats"
+          commit_message: '📊 Update WakaTime stats'
           file_pattern: '*.md images/*'

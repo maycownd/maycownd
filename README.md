@@ -1,4 +1,4 @@
-# Hey, I'm Maycown 👋
+# Hi, I am Maycown (Mike) 👋
 
 > **Machine Learning Engineer @ H&M · Stockholm, Sweden 🇸🇪**
 
@@ -7,67 +7,50 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Data%20%26%20ML-111827?style=flat&logo=google-chrome&logoColor=white)](https://github.com/maycownd)
 ![Profile views](https://komarev.com/ghpvc/?username=maycownd&style=flat&color=0e75b6)
 
----
-
-### 🛰️ What I'm focused on now
-
-- Building **reliable ML systems** that can survive real-world scale and operational complexity
-- Turning messy retail data into **decision-ready analytics products**
-- Designing **cloud-native MLOps workflows** with observability by default
-- Exploring **AI + product strategy** for high-impact internal tools
+[![WakaTime pipeline](https://github.com/maycownd/maycownd/actions/workflows/wakatime.yml/badge.svg)](https://github.com/maycownd/maycownd/actions/workflows/wakatime.yml)
+[![Snake pipeline](https://github.com/maycownd/maycownd/actions/workflows/snake.yml/badge.svg)](https://github.com/maycownd/maycownd/actions/workflows/snake.yml)
 
 ---
 
-### ⚡ What I do at work
+### 🎯 Maycown build mode
 
-**Cloud & Data Engineering**
-- Led **Azure → GCP migration** for major digital products
-- Built **DBT + BigQuery** analytics platform from scratch
-- Configured **CI/CD pipelines** for dozens of ML/data workflows
-- Implemented **SonarQube** across multiple production projects
-- Shipped **supply chain allocation system** for major retailer
-
-**ML & Data Platforms**
-- Heavy **Databricks** user for data modeling & ML pipelines
-- Deployed **Cloud Run jobs** for ETL, monitoring, and batch processing
-- Productionized ML models serving millions of predictions daily
+- Building **resilient ML systems** that hold up under real-world pressure
+- Turning noisy retail data into **decision-ready products**
+- Designing **cloud-native MLOps workflows** with observability first
+- Exploring **AI + product strategy** for high-leverage internal tools
 
 ---
 
-### 🧠 Tech stack
+### 🧪 What makes my style different
 
-**Languages & Core**
+- I blend **platform engineering discipline** with **product instincts**
+- I optimise for systems people can operate at 03:00, not just demo at 15:00
+- I prefer **small, composable pipelines** over one giant black box
+- I treat documentation and naming as part of the engineering design
+
+---
+
+### 🛰️ Cloud/Data/ML toolkit
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
-
-**ML & Data**
-
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
-![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-
-**Cloud & DevOps**
-
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-F96B28?style=flat&logo=databricks&logoColor=white)
+![Google_Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=google-bigquery&logoColor=white)
 ![DBT](https://img.shields.io/badge/DBT-FF6B35?style=flat&logo=dbt&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-F96B28?style=flat&logo=databricks&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
 ---
 
-### 🧭 Engineering principles
+### ⚙️ Pipeline control room
 
-- **Clarity over cleverness** — readable pipelines scale better than opaque magic
-- **Data contracts first** — schema stability is a product feature
-- **Observability is non-negotiable** — if we can't measure it, we can't trust it
-- **Automate the boring parts** — energy should go to product outcomes
+- **WakaTime refresh** runs daily and can be triggered manually
+- **Snake animation generator** publishes SVG artefacts to `output`
+- **Concurrency guards** prevent overlapping runs
+- **Pinned action versions** improve stability and supply-chain safety
 
 ---
 
@@ -111,27 +94,25 @@
 
 - 🧮 **ML & Deep Learning**
   - `ann-python` – Artificial neural networks from scratch and with Keras
-  - `TCC-Segmentacao-Imagens` – Image segmentation for medical/bone images
-  - `Data-Science-PyTorch-MNIST` & `deep-learning-fashion-mnist` – Vision models on classic datasets
+  - `TCC-Segmentacao-Imagens` – Image segmentation for medical and bone images
+  - `Data-Science-PyTorch-MNIST` and `deep-learning-fashion-mnist` – Vision models on classic datasets
 
 - 📈 **Product & Analytics**
-  - `nutrition-analysis` – Simple nutrition analysis for learning
+  - `nutrition-analysis` – Lightweight nutrition analysis for learning
   - `notas-matematica-enem` – Predicting ENEM 2016 maths scores
   - `brasa-hacks` – Hackathon data science content
 
 - 🧪 **Newer work (private)**
-  - `stock-pulse-ai` – Stock tracking, prediction & recommendations
+  - `stock-pulse-ai` – Stock tracking, prediction, and recommendations
   - `gym-stock-manager` – Stock and inventory management for gyms
-  - `mike-and-jane` – TypeScript playground / experiments
+  - `mike-and-jane` – TypeScript playground and experiments
 
 ---
 
 ### 🎮 Outside of code
 
-- JRPG & action RPG enjoyer (**FFVII** will always have S-tier status)
-- Concerts, arts and music whenever I can get good tickets
-- Always down to talk ML systems, productionizing models, or game design
+- JRPG and action RPG enthusiast (**FFVII** is permanent S-tier)
+- Concerts, arts, and music whenever I can get a ticket
+- Always up for a chat about ML systems, model production, or game design
 
-💬 **Reach out**: ping me on LinkedIn/Twitter or open an issue if you want to chat about ML, TypeScript, or cool side projects.
-
----
+💬 **Reach out**: message me on LinkedIn/Twitter or open an issue if you want to talk ML, TypeScript, or cool side projects.
