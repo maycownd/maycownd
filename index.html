@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio for Maycown (Mike) Di Pierro — Machine Learning Engineer in Stockholm, building resilient ML systems with product-minded thinking."
+    />
+    <title>Maycown Di Pierro — ML Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-accent bg-accent--one"></div>
+    <div class="bg-accent bg-accent--two"></div>
+    <div class="bg-grid"></div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-indicator__bar"></div>
+    </div>
+
+    <header class="nav-shell">
+      <nav class="nav">
+        <div class="brand">
+          <div class="brand__dot"></div>
+          <div>
+            <p class="brand__eyebrow">Machine Learning Engineer</p>
+            <p class="brand__name">Maycown (Mike) Di Pierro</p>
+          </div>
+        </div>
+        <button class="nav__toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav__links">
+          <li><a href="#home" class="nav__link is-active">Home</a></li>
+          <li><a href="#focus" class="nav__link">Focus</a></li>
+          <li><a href="#edge" class="nav__link">Edge</a></li>
+          <li><a href="#toolkit" class="nav__link">Toolkit</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#stats" class="nav__link">Stats</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+        <div class="nav__actions">
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/maycownd/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn--primary" href="mailto:maycown.dipierro@gmail.com">Start a project</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero__content">
+          <div class="eyebrow">Stockholm · Cloud-native ML systems</div>
+          <h1>Building resilient ML products that keep running after the demo.</h1>
+          <p class="lede">
+            I blend platform engineering discipline with product instincts to ship ML systems you can operate at 03:00, not
+            just demo at 15:00. Currently crafting observability-first workflows at H&M.
+          </p>
+          <div class="badge-row">
+            <span class="pill pill--solid">Machine Learning Engineer @ H&M</span>
+            <span class="pill">Location: Stockholm, Sweden</span>
+            <span class="pill">Cloud-native · MLOps · Retail data</span>
+          </div>
+          <div class="cta-row">
+            <a class="btn btn--primary" href="mailto:maycown.dipierro@gmail.com?subject=Let’s build an ML product">
+              Let’s build together
+            </a>
+            <a class="btn btn--ghost" href="https://github.com/maycownd" target="_blank" rel="noreferrer">GitHub profile</a>
+            <a class="btn btn--quiet" href="#projects">See selected work</a>
+          </div>
+          <div class="microcopy">
+            <span>Favour small, composable pipelines • Treat documentation and naming as design • Prioritise operability</span>
+          </div>
+        </div>
+        <div class="hero__panel">
+          <div class="panel-card">
+            <p class="card-label">Maycown build mode</p>
+            <ul class="list">
+              <li>Resilient ML systems for real-world pressure</li>
+              <li>Retail data → decision-ready products</li>
+              <li>Cloud-native MLOps with observability first</li>
+              <li>AI + product strategy for high-leverage tools</li>
+            </ul>
+          </div>
+          <div class="panel-grid">
+            <div class="mini-card">
+              <p class="mini-label">Operating Style</p>
+              <p class="mini-body">Small, composable pipelines over one black box.</p>
+            </div>
+            <div class="mini-card">
+              <p class="mini-label">Quality Bar</p>
+              <p class="mini-body">Optimise for maintainers and on-call sleep.</p>
+            </div>
+            <div class="mini-card">
+              <p class="mini-label">Current experiments</p>
+              <p class="mini-body">Product-led AI assistants for internal teams.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--split" id="focus">
+        <div>
+          <p class="eyebrow">How I work</p>
+          <h2>From noisy data to decisions — with reliability baked in.</h2>
+          <p class="body">
+            I design systems that make data useful fast, keep stakeholders in the loop, and survive changing requirements.
+            The mission: make ML products trustworthy, observable, and repeatable.
+          </p>
+          <div class="pill-row">
+            <span class="pill pill--solid">Observability-first</span>
+            <span class="pill">Product sense</span>
+            <span class="pill">Sane defaults</span>
+            <span class="pill">Operational calm</span>
+          </div>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <p class="card-label">Resilience</p>
+            <h3>Systems that stay online</h3>
+            <p>Design with incident playbooks, guardrails, and self-healing patterns so launches don’t wake people up.</p>
+          </article>
+          <article class="card">
+            <p class="card-label">Data to product</p>
+            <h3>Signal over noise</h3>
+            <p>Turn messy retail data into decision-ready products that people actually use, not dashboards that gather dust.</p>
+          </article>
+          <article class="card">
+            <p class="card-label">Cloud-native</p>
+            <h3>Ship with observability</h3>
+            <p>Build pipelines with tracing, metrics, and alerts by default, keeping feedback loops tight for everyone involved.</p>
+          </article>
+          <article class="card">
+            <p class="card-label">AI + product</p>
+            <h3>High-leverage tools</h3>
+            <p>Create internal assistants and workflows that remove toil, shorten loops, and keep teams focused on high-impact work.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="edge">
+        <p class="eyebrow">What makes my style different</p>
+        <div class="edge-grid">
+          <div class="edge-card">
+            <h3>Operate at 03:00</h3>
+            <p>I build for the hard hours — clear naming, strong docs, and predictable pipelines so incident response is calm.</p>
+          </div>
+          <div class="edge-card">
+            <h3>Composable by design</h3>
+            <p>Prefer small, composable pipelines you can reason about, swap, and extend without breaking everything.</p>
+          </div>
+          <div class="edge-card">
+            <h3>Product-minded ML</h3>
+            <p>Blend platform discipline with product instincts — shipping experiences that match the user and business constraints.</p>
+          </div>
+          <div class="edge-card">
+            <h3>Documentation as UX</h3>
+            <p>Treat docs, naming, and runbooks as part of design. Teams deserve clarity, not mystery.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--split" id="toolkit">
+        <div>
+          <p class="eyebrow">Cloud · Data · ML toolkit</p>
+          <h2>Tools I reach for weekly.</h2>
+          <p class="body">Python, TypeScript, SQL, PyTorch, TensorFlow, Databricks, GCP, BigQuery, DBT, Docker.</p>
+          <div class="pill-row">
+            <span class="pill pill--solid">Python</span>
+            <span class="pill">TypeScript</span>
+            <span class="pill">SQL</span>
+            <span class="pill">PyTorch</span>
+            <span class="pill">TensorFlow</span>
+            <span class="pill">Databricks</span>
+            <span class="pill">GCP</span>
+            <span class="pill">BigQuery</span>
+            <span class="pill">DBT</span>
+            <span class="pill">Docker</span>
+          </div>
+        </div>
+        <div class="card-stack">
+          <article class="card card--stacked">
+            <p class="card-label">Pipeline control room</p>
+            <ul class="list">
+              <li>WakaTime refresh runs daily with manual triggers</li>
+              <li>Snake animation generator publishes SVG assets</li>
+              <li>Concurrency guards and pinned action versions</li>
+              <li>Supply-chain safety and observability by default</li>
+            </ul>
+          </article>
+          <article class="card card--stacked">
+            <p class="card-label">Operating principles</p>
+            <ul class="list">
+              <li>Observability-first MLOps and defensible defaults</li>
+              <li>Design for maintainers: runbooks, docs, naming</li>
+              <li>Short feedback loops between data, product, people</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section__header">
+          <div>
+            <p class="eyebrow">Selected projects</p>
+            <h2>Systems, analytics, and AI assistants.</h2>
+          </div>
+          <a class="btn btn--quiet" href="https://github.com/maycownd?tab=repositories" target="_blank" rel="noreferrer">
+            Browse GitHub
+          </a>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span class="pill pill--solid">ML & Deep Learning</span>
+            </div>
+            <h3>ANNs to medical imaging</h3>
+            <p>
+              Building neural networks from scratch and with Keras, plus segmentation for medical and bone images. Fashion
+              and MNIST vision experiments round out the toolkit.
+            </p>
+            <p class="meta">Repos: ann-python, TCC-Segmentacao-Imagens, Data-Science-PyTorch-MNIST, deep-learning-fashion-mnist</p>
+          </article>
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span class="pill pill--solid">Product & Analytics</span>
+            </div>
+            <h3>Decision-ready analytics</h3>
+            <p>
+              Lightweight nutrition analysis, score prediction for ENEM 2016 maths, and hackathon-ready data science content
+              for fast validation.
+            </p>
+            <p class="meta">Repos: nutrition-analysis, notas-matematica-enem, brasa-hacks</p>
+          </article>
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span class="pill pill--solid">Newer work</span>
+            </div>
+            <h3>AI + product experiments</h3>
+            <p>
+              Stock tracking, gym inventory management, and TypeScript playgrounds for rapid prototyping. Emphasis on
+              measurable impact and operability.
+            </p>
+            <p class="meta">Repos: stock-pulse-ai, gym-stock-manager, mike-and-jane (private / ongoing)</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--split" id="stats">
+        <div>
+          <p class="eyebrow">Working in the open</p>
+          <h2>Activity snapshots.</h2>
+          <p class="body">Dark, auto-updating charts keep a pulse on recent coding activity and contributions.</p>
+          <div class="pill-row">
+            <span class="pill pill--solid">WakaTime</span>
+            <span class="pill">GitHub contribution snake</span>
+            <span class="pill">Daily refresh</span>
+          </div>
+        </div>
+        <div class="stats-stack">
+          <div class="stat-card">
+            <p class="card-label">WakaTime activity</p>
+            <img src="./images/wakatime.svg" alt="WakaTime weekly stats for Maycown" loading="lazy" />
+          </div>
+          <div class="stat-card">
+            <p class="card-label">Contribution snake</p>
+            <picture>
+              <source
+                media="(prefers-color-scheme: dark)"
+                srcset="https://raw.githubusercontent.com/maycownd/maycownd/output/github-contribution-grid-snake-dark.svg"
+              />
+              <img
+                src="https://raw.githubusercontent.com/maycownd/maycownd/output/github-contribution-grid-snake.svg"
+                alt="GitHub contribution snake animation"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow">Let’s talk</p>
+          <h2>Want resilient ML systems for your team?</h2>
+          <p class="body">
+            I love building systems that people can rely on, with clarity baked in. Reach out if you want to ship faster and
+            sleep better.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn--primary" href="mailto:maycown.dipierro@gmail.com">Email me</a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/maycownd/" target="_blank" rel="noreferrer">
+              Connect on LinkedIn
+            </a>
+            <a class="btn btn--quiet" href="https://twitter.com/maycown" target="_blank" rel="noreferrer">Twitter</a>
+          </div>
+        </div>
+        <div class="contact__aside">
+          <div class="card">
+            <p class="card-label">Outside of code</p>
+            <p>JRPG and action RPG enthusiast (FFVII is permanent S-tier). Concerts, arts, and music whenever possible.</p>
+            <p>Always up for a chat about ML systems, TypeScript, or game design.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 · Maycown (Mike) Di Pierro · Built for GitHub Pages</p>
+      <div class="footer__links">
+        <a href="https://github.com/maycownd" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/maycownd/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://twitter.com/maycown" target="_blank" rel="noreferrer">Twitter</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

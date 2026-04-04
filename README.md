@@ -10,6 +10,12 @@
 [![WakaTime pipeline](https://github.com/maycownd/maycownd/actions/workflows/wakatime.yml/badge.svg)](https://github.com/maycownd/maycownd/actions/workflows/wakatime.yml)
 [![Snake pipeline](https://github.com/maycownd/maycownd/actions/workflows/snake.yml/badge.svg)](https://github.com/maycownd/maycownd/actions/workflows/snake.yml)
 
+## Portfolio site
+
+- **Live**: https://maycownd.github.io/
+- **Local preview**: open `index.html` in a browser or run `npm start` (uses `npx serve .`) from the repo root.
+- **What’s inside**: a fluid, single-page portfolio with hero, focus areas, operating principles, toolkit, selected projects, live WakaTime stats, the GitHub contribution snake, and contact calls to action.
+
 ---
 
 ### 🎯 Maycown build mode
